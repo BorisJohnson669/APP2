@@ -1,0 +1,64 @@
+body {
+    background-color: #21252b;
+    color: white;
+}
+
+.container {
+    padding-right: 20rem;
+    padding-left: 20rem;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+#book-of-the-day {
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #282c34;
+    font-size: large;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+#book-of-the-day h3 {
+    font-size: xx-large;
+    color: bisque;
+}
+
+#addBook {
+    float: right;
+    width: 30em;
+}
+
+#books {
+    float: left;
+    width: 37em;
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#card {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #21252b;
+}
+
+button {
+    margin: 5px;
+    background-color: rgb(0, 34, 65);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#card button:hover {
+    background-color: rgb(160, 195, 228);
+    cursor: pointer
+}

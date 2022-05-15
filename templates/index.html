@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Books App</title>
+  <link rel="stylesheet" href="static/w3.css">
+  <link rel="stylesheet" href="static/w3-deep-purple-theme.css">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Books App</h1>
+    <h2>Description</h2>
+    <p>
+      This app will allow you to add/ delete books, get random books and filter out the books that you want
+      utilising the search features presented below.
+    </p>
+    <h2 style="text-align: center">Book Of The Day</h2>
+    <div id="book-of-the-day">
+      Loading...
+    </div>
+
+    <div id="addBook">
+      <h3>Add a Book</h3>
+      <div>
+        <div>
+          <label for="titleEntry">Title: </label>
+          <input value="Jane Eyre" type="text" id="title" class="w3-input w3-border w3-round" required>
+        </div>
+        <div>
+          <label for="authorEntry">Author: </label>
+          <input value="Charlotte Brontë" type="text" id="author" class="w3-input w3-border w3-round" required>
+        </div>
+        <div>
+          <label for="dateEntry">Date: </label>
+          <input value="1847-09-16" type="date" id="date" class="w3-input w3-border w3-round" required>
+        </div>
+        <div>
+          <label for="ISBN">ISBN: </label>
+          <input value="9780194241762" type="tet" id="isbn" class="w3-input w3-border w3-round" required>
+        </div>
+      </div>
+      <div>
+        <button id="btnAddEntry" class="w3-button w3-theme-d5 w3-margin-top">Submit Book</button>
+      </div>
+    </div>
+
+    <div id="books">
+      <h3>** List of Books **</h3>
+      <div id="books-list">
+        Loading...
+      </div>
+    </div>
+    <script src="static/scripts/api.js"></script>
+    <script src="static/scripts/app.js"></script>
+</body>
+
+</html>
